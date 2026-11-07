@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Gestão Pessoal</string>
-    <string name="hello_world">Hello World</string>
+
+    <!-- Lembretes: lista -->
+    <string name="reminders_title">Lembretes</string>
+    <string name="reminders_empty">Nenhum lembrete ainda. Toque em + para criar o primeiro.</string>
+    <string name="reminder_add">Novo lembrete</string>
+    <string name="reminder_delete_title">Excluir lembrete?</string>
+    <string name="reminder_delete_message">\"%1$s\" será excluído e a notificação cancelada.</string>
+
+    <!-- Lembretes: cadastro -->
+    <string name="reminder_new">Novo lembrete</string>
+    <string name="reminder_edit">Editar lembrete</string>
+    <string name="field_title">Título</string>
+    <string name="field_description">Descrição (opcional)</string>
+    <string name="field_when">Quando</string>
+    <string name="field_time">Horário</string>
+    <string name="field_repeat">Repetir</string>
+    <string name="repeat_none">Não repetir</string>
+    <string name="repeat_daily">Diariamente</string>
+    <string name="repeat_weekly">Semanalmente</string>
+    <string name="repeat_monthly">Mensalmente</string>
+    <string name="error_title_required">Informe um título.</string>
+    <string name="error_date_in_past">Escolha uma data e um horário no futuro.</string>
+
+    <!-- Ações -->
+    <string name="action_save">Salvar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_ok">OK</string>
+
+    <!-- Permissões -->
+    <string name="permission_notifications_message">As notificações estão desativadas. Sem elas, os lembretes não vão aparecer.</string>
+    <string name="permission_exact_alarm_message">Para os lembretes tocarem no horário exato, permita \"Alarmes e lembretes\" nas configurações.</string>
+    <string name="permission_open_settings">Abrir configurações</string>
+
+    <!-- Notificações -->
+    <string name="notification_channel_reminders">Lembretes</string>
+    <string name="notification_channel_reminders_description">Avisos no horário de cada lembrete</string>
+    <string name="notification_action_complete">Concluir</string>
 </resources>
